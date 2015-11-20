@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- PEALISTv1: TextSize:0| -->
+<plist version="1.0">
+<dict>
+	<key>S</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Iron Fist</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Channel your chi to unleash devastating fury! Punching attacks do 20% more damage to your opponent.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Punching attacks now do 40% more damage and can disarm your opponent.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Punching attacks now do 60% more damage. Unarmed Power Attacks have a chance to cripple one of your opponent&apos;s limbs.</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Punching attacks now do 80% more damage. Unarmed Power Attacks have an increased chance to cripple one of your opponent&apos;s limbs.</string>
+					<key>CharLevel</key>
+					<real>31</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Punching attacks now do double damage. Criticals in V.A.T.S. will paralyze your opponent.</string>
+					<key>CharLevel</key>
+					<real>46</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Big Leagues</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Swing for the fences! Do 20% more melee weapon damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now do 40% more melee weapon damage and gain a chance to disarm your opponent.</string>
+					<key>CharLevel</key>
+					<real>7</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now do 60% more melee weapon damage and gain an increased chance to disarm your opponent.</string>
+					<key>CharLevel</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now do 80% more melee weapon damage and hit all targets in front of you.</string>
+					<key>CharLevel</key>
+					<real>27</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now do double damage with a melee weapon, and gain a chance to cripple your opponent, or grand slam their head clean off!</string>
+					<key>CharLevel</key>
+					<real>42</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Armorer</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Protect yourself from the dangers of the Wasteland with access to base level and Rank 1 armor mods.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 2 armor mods</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 3 armor mods</string>
+					<key>CharLevel</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 4 armor mods</string>
+					<key>CharLevel</key>
+					<real>39</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Blacksmith</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Fire up the forge and gain access to base level and Rank 1 melee weapon mods.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 2 melee weapon mods</string>
+					<key>CharLevel</key>
+					<real>16</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 3 melee weapon mods</string>
+					<key>CharLevel</key>
+					<real>29</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Heavy Gunner</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Thanks to practice and conditioning, heavy guns do 20% more damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Heavy guns now do 40% more damage, and have improved hip fire accuracy.</string>
+					<key>CharLevel</key>
+					<real>11</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Heavy guns now do 60% more damage. Hip fire accuracy is increased even more.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Heavy guns now do 80% more damage and have a chance to stagger your opponent.</string>
+					<key>CharLevel</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Heavy guns now do double damage.</string>
+					<key>CharLevel</key>
+					<real>47</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Strong Back</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>What are you, part pack mule? Gain +25 to carry weight</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +50 to carry weight.</string>
+					<key>CharLevel</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When overencumbered, you can use Action Points to run.</string>
+					<key>CharLevel</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When overencumbered, you can fast travel.</string>
+					<key>CharLevel</key>
+					<real>30</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Steady Aim</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Stay on target! Hip-fire accuracy is improved when firing any gun.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Hip-fire accuracy is improved even more when firing any gun.</string>
+					<key>CharLevel</key>
+					<real>28</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Basher</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Get up close and personal! Gun bashing does 25% more damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Gun bashing now does 50% more damage and possibly cripples your opponent.</string>
+					<key>CharLevel</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Gun bashing now does 75% more damage and has an increased chance to cripple your opponent.</string>
+					<key>CharLevel</key>
+					<real>14</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Gun bashing does double damage and has an increased chance to cripple your opponent. It may also inflict a Critical Hit.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rooted</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;re part tree! While standing still, you gain +25 Damage Resistance and your melee and unarmed attacks deal 25% more damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>While standing still, you now gain +50 Damage Resistance and your melee and unarmed attacks deal 50% more damage.</string>
+					<key>CharLevel</key>
+					<real>22</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>While standing still, you may automatically disarm enemies that use melee weapons against you.</string>
+					<key>CharLevel</key>
+					<real>43</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Pain Train</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Choo Choo! All aboard! While wearing Power Armor,sprinting into enemies hurts and staggers them. (Robots and oversized enemies are immune to the stagger.)</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Sprinting into enemies while wearing Power Armor now causes severe damage and a more powerful stagger. (Robots and oversized enemies are immune to the stagger.)</string>
+					<key>CharLevel</key>
+					<real>24</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Sprinting into enemies while wearing Power Armor now causes massive damage and knocks them down. Impact landing near enemies inflicts even more damage.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>P</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Pickpocket</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Your quick hands and sticky fingers make picking pockets 25% easier.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Picking pockets is now 50% easier. You can place a live grenade in a person&apos;s inventory.</string>
+					<key>CharLevel</key>
+					<real>6</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Picking pockets is now 75% easier, and you can steal equipped weapons.</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Picking pockets is now twice as easy, and you can steal equipped items.</string>
+					<key>CharLevel</key>
+					<real>30</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rifleman</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Keep your distance long and your kill-count high. Attacks with non-automatic rifles do 20% more damage</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with non-automatic rifles do 40% more damage and ignore 15% of a target&apos;s armor.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with non-automatic rifles do 60% more damage and ignore 20% of a target&apos;s armor.</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with non-automatic rifles do 80% more damage and ignore 25% of a target&apos;s armor. They also have a slight chance of crippling a limb.</string>
+					<key>CharLevel</key>
+					<real>31</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with non-automatic rifles do double damage and ignore 30% of a target&apos;s armor. They also have a slightly higher chance of crippling a limb.</string>
+					<key>CharLevel</key>
+					<real>46</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Awareness</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>To defeat your enemies, know their weaknesses! You can view a target&apos;s specific damage resistances in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Locksmith</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Your nimble fingers allow you to pick advanced locks.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can pick Expert locks.</string>
+					<key>CharLevel</key>
+					<real>7</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can pick Master locks.</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your bobby pins never break during lockpicking.</string>
+					<key>CharLevel</key>
+					<real>41</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Demolition Expert</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>The bigger the boom, the better! Your explosives do 25% more damage, and you can craft explosives at any Chemistry Station.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your explosives do 50% more damage, and grenades gain a throwing arc.</string>
+					<key>CharLevel</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your explosives do 75% more damage and affect a larger area.</string>
+					<key>CharLevel</key>
+					<real>22</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your explosives now do double damage. Mines and grenades shot in V.A.T.S explode for double damage, too.</string>
+					<key>CharLevel</key>
+					<real>34</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Night Person</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You are a creature of the night! Gain +2 to Intelligence and Perception between the hours of 6:00 p.m. and 6:00 a.m.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +3 to Intelligence and Perception between the hours of 6:00 p.m. and 6:00 a.m., and night vision when sneaking.</string>
+					<key>CharLevel</key>
+					<real>25</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Refractor</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You must be part mirror! Instantly gain +10 Energy Resistance.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +20 Energy Resistance.</string>
+					<key>CharLevel</key>
+					<real>11</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +30 Energy Resistance.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +40 Energy Resistance.</string>
+					<key>CharLevel</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +50 Energy Resistance.</string>
+					<key>CharLevel</key>
+					<real>42</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sniper</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>It&apos;s all about focus. You have improved control and can hold your breath longer when aiming with scopes.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic, scoped rifles have a chance of knocking down your target.</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic, scoped rifles gain +25% accuracy to head shot in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Penetrator</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>There&apos;s no place to hide! In V.A.T.S you can target an enemy&apos;s body parts that are blocked by cover, with a decrease in accuracy.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>In V.A.T.S when you target an enemy&apos;s body parts that are blocked by cover, there is no decrease in accuracy.</string>
+					<key>CharLevel</key>
+					<real>28</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Concentrated Fire</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Stay Focused! In V.A.T.S every attack on the same body part gains +10% accuracy.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>In V.A.T.S every attack on the same body part gains +15% accuracy.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>In V.A.T.S every attack on the same body part gains +20% accuracy and does 20% more damage.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>E</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Toughness</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>If nothing else, you can take a beating! Instantly gain +10 Damage Resistance</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +20 damage resistance.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +30 damage resistance.</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +40 damage resistance.</string>
+					<key>CharLevel</key>
+					<real>31</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +50 damage resistance.</string>
+					<key>CharLevel</key>
+					<real>46</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lead Belly</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Your digestive tract has adjusted to the weirdness of the Wasteland! Take less radiation from eating or drinking.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You take even less radiation from eating or drinking.</string>
+					<key>CharLevel</key>
+					<real>6</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You take no radiation from eating or drinking.</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lifegiver</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You embody wellness! Instantly gain +20 maximum Health.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You instantly gain another +20 maximum Health.</string>
+					<key>CharLevel</key>
+					<real>8</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You instantly gain another +20 maximum Health, and slowly regenerate lost Health.</string>
+					<key>CharLevel</key>
+					<real>20</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Chem Resistant</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>All the rush without the hassle! You&apos;re 50% less likely to get addicted when consuming Chems</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain complete immunity to chem addiction.</string>
+					<key>CharLevel</key>
+					<real>22</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Aquaboy / Aquagirl</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Water is your ally. You no longer take radiation damage from swimming, and can breathe underwater</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You become totally undetectable while submerged.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Rad Resistant</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Exposure to the Wasteland has made you more resilient, instantly granting +10 Radiation Resistance.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +20 Radiation Resistance.</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now have +30 Radiation Resistance.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Adamantium Skeleton</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Your skeleton has been infused with indestructible metal, reducing limb damage by 30%.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your limb damage is now reduced by 60%.</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your limb damage is completely eliminated.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Cannibal</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Feast on mortal flesh to heal your wounds! Eating human corpses restores Health.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Eating Ghoul or Super Mutant corpses restores Health.</string>
+					<key>CharLevel</key>
+					<real>19</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Eating human, Ghoul or Super Mutant corpses now restores a significant amount of Health.</string>
+					<key>CharLevel</key>
+					<real>38</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ghoulish</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Sure, you&apos;re still human - on the outside! Radiation now regenerates your lost Health.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Radiation now regenerates even more of your lost Health.</string>
+					<key>CharLevel</key>
+					<real>24</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Radiation now regenerates even more of your lost Health, and some Feral Ghouls will randomly become friendly.</string>
+					<key>CharLevel</key>
+					<real>48</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Solar Powered</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Catch some rays! Gain +2 to Strength and Endurance between the hours of 6:00a.m. and 6:00p.m.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Sunlight slowly heals your radiation damage.</string>
+					<key>CharLevel</key>
+					<real>27</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Sunlight slowly regenerates your lost Health.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>C</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cap Collector</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;ve mastered the art of the deal! Buying and selling prices at vendors are better.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Buying and selling prices of vendors are now much better.</string>
+					<key>CharLevel</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can now invest a total of 500 caps to raise a store&apos;s buying capacity.</string>
+					<key>CharLevel</key>
+					<real>41</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lady Killer / Black Widow</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;re charming... and dangerous. Men/Women suffer +5% damage in combat, and are easier to persuade in dialogue.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Men/Women now suffer +10% damage in combat, and are even easier to persuade in dialogue. They are also easier to pacify with the Intimidation perk.</string>
+					<key>CharLevel</key>
+					<real>7</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Men/Women now suffer +15% damage in combat, and are much easier to persuade in dialogue. They are now even easier to pacify with the Intimidation perk.</string>
+					<key>CharLevel</key>
+					<real>16</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lone Wanderer</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Who needs friends, anyway? When adventuring without a companion, you take 15% less damage and carry weight increases by 50.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When adventuring without a companion, you take 20% less damage and carry weight increases by 100</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When adventuring without a companion, you do 25% more damage.</string>
+					<key>CharLevel</key>
+					<real>40</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Attack Dog</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Your faithful canine companion can hold an enemy, giving you a greater chance to hit them in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When your dog holds an enemy, there&apos;s a chance he&apos;ll cripple the limb he&apos;s biting.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When your dog holds an enemy, there&apos;s a chance he&apos;ll cause them to bleed.</string>
+					<key>CharLevel</key>
+					<real>25</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Animal Friend</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Commune with beasts! With your gun, aim at any animal below your level and gain a chance to pacify it.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify an animal, you can incite it to attack</string>
+					<key>CharLevel</key>
+					<real>12</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify an animal, you can give it specific commands</string>
+					<key>CharLevel</key>
+					<real>28</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Local Leader</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>As the ruler everyone turns to, you are able to establish supply lines between your workshop settlements.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can build stores and workstations at workshop settlements.</string>
+					<key>CharLevel</key>
+					<real>14</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Party Boy / Party Girl</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Nobody has a good time like you! There&apos;s no chance you&apos;ll get addicted to alcohol.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>The effects of alcohol are doubled.</string>
+					<key>CharLevel</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your Luck is increased by 3 while you&apos;re under the influence of alcohol.</string>
+					<key>CharLevel</key>
+					<real>37</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Inspirational</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Because you lead by example, your companion does more damage in combat, and cannot hurt you.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your companion resists more damage in combat, and can&apos;t be harmed by your attacks.</string>
+					<key>CharLevel</key>
+					<real>19</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your companion can carry more items.</string>
+					<key>CharLevel</key>
+					<real>43</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wasteland Whisperer</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Master the post-apocalypse! With your gun, aim at any Wasteland creature below your level and gain a chance to pacify it.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify a creature, you can incite it to attack.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify a creature, you can give it specific commands.</string>
+					<key>CharLevel</key>
+					<real>49</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Intimidation</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Time to show everyone who&apos;s boss! With your gun, aim at any human opponent below your level and gain a chance to pacify them.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify someone, you can incite them to attack.</string>
+					<key>CharLevel</key>
+					<real>23</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully pacify someone, you can give them specific commands.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>I</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>V.A.N.S.</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Let Vault-Tec guide you! The path to your closest quest target is displayed in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Medic</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Is there a doctor in the house? Stimpaks restore 40% of lost Health, and RadAway removes 40% of radiation.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Stimpaks restore 60% of lost Health, and RadAway removes 60% of radiation</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Stimpaks restore 80% of lost Health, and RadAway removes 80% of radiation</string>
+					<key>CharLevel</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Stimpaks and RadAway restore all lost health and radiation, and work much more quickly.</string>
+					<key>CharLevel</key>
+					<real>49</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gun Nut</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to base level and Rank 1 gun mods</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 2 gun mods</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 3 gun mods</string>
+					<key>CharLevel</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 4 gun mods</string>
+					<key>CharLevel</key>
+					<real>39</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Hacker</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Knowledge of cutting-edge computer encryption allows you to hack Advanced terminals</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can hack Expert terminals.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can hack Master terminals.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When hacking, you never get locked out of a terminal when things go wrong.</string>
+					<key>CharLevel</key>
+					<real>33</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Scrapper</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Waste not, want not! You can salvage uncommon components like screws, aluminum, and copper when scrapping weapons and armor.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can salvage rare components like circuitry, nuclear material, and fiber optics when scrapping weapons and armor. Items with favorited components are highlighted.</string>
+					<key>CharLevel</key>
+					<real>23</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Science!</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Take full advantage of advanced technology with access to base level and Rank 1 high-tech mods.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 2 high-tech mods.</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 3 high-tech mods.</string>
+					<key>CharLevel</key>
+					<real>28</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You gain access to Rank 4 high-tech mods.</string>
+					<key>CharLevel</key>
+					<real>41</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Chemist</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Any chems you take last 50% longer. Far out.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Any chems you take now last twice as long.</string>
+					<key>CharLevel</key>
+					<real>16</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Any chems you take now last an additional 150% longer.</string>
+					<key>CharLevel</key>
+					<real>32</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Any chems you take now last an additional 200% longer.</string>
+					<key>CharLevel</key>
+					<real>45</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Robotics Expert</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Machines will always serve humans, if you have anything to say about it. Hack a robot, and gain a chance to power it on or off, or initiate a self-destruct.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully hack a robot, you can incite it to attack.</string>
+					<key>CharLevel</key>
+					<real>19</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When you successfully hack a robot, you can give it specific commands.</string>
+					<key>CharLevel</key>
+					<real>44</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Nuclear Physicist</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;ve learned to split the atom... and command it. Radiation weapons do 50% more damage and Fusion Cores last an extra 25% longer.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Radiation weapons now do double damage and Fusion Cores last an extra 50% longer.</string>
+					<key>CharLevel</key>
+					<real>14</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Fusion Cores can be ejected from Power Armor like devastating grenades and Fusion Cores last twice as long.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Nerd Rage!</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Genius. Is. ANGRY! When your Health drops below 20%, time slows and you gain +20 Damage resistance and do 20% more damage while the effect lasts.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now gain 30 more Damage Resistance and do 30% more damage while Nerd Rage is in effect.</string>
+					<key>CharLevel</key>
+					<real>31</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now gain 40 more Damage Resistance and do 40% more damage while Nerd Rage is in effect. Kills you make while enraged restore some lost Health.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>A</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Gunslinger</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Channel the spirit of the old west! Non-automatic pistols do 20% more damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic pistols now do 40% more damage and have increased range.</string>
+					<key>CharLevel</key>
+					<real>7</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic pistols now do 60% more damage and range is increased even further.</string>
+					<key>CharLevel</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic pistols now do 80% more damage and their attacks can disarm opponents.</string>
+					<key>CharLevel</key>
+					<real>27</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Non-automatic pistols now do double damage. Their attacks have a much better chance to disarm opponents, and may even cripple a limb.</string>
+					<key>CharLevel</key>
+					<real>42</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Commando</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Rigorous combat training means automatic weapons do 20% more damage</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with automatic weapons do 40% more damage, with improved hip fire accuracy.</string>
+					<key>CharLevel</key>
+					<real>11</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with automatic weapons do 60% more damage. Hip fire accuracy is improved even more.</string>
+					<key>CharLevel</key>
+					<real>21</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Attacks with automatic weapons do 80% more damage and gain a chance to stagger opponents.</string>
+					<key>CharLevel</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your automatic weapons now do double damage and have a greater chance to stagger opponents.</string>
+					<key>CharLevel</key>
+					<real>49</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Sneak</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Become whisper, become shadow. You are 20% harder to detect while sneaking.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You are now 30% harder to detect while sneaking, and no longer trigger floor-based traps.</string>
+					<key>CharLevel</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You are now 40% harder to detect while sneaking, and no longer trigger enemy mines.</string>
+					<key>CharLevel</key>
+					<real>12</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You are now 50% harder to detect while sneaking, and running no longer adversely affects stealth.</string>
+					<key>CharLevel</key>
+					<real>23</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Engaging stealth causes distant enemies to lose you.</string>
+					<key>CharLevel</key>
+					<real>38</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mister Sandman</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>As an agent of death, you can instantly kill a sleeping person. Your silenced weapons do an additional 15% sneak attack damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your silenced weapons do an additional 30% sneak attack damage.</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your silenced weapons now do 50% more sneak attack damage.</string>
+					<key>CharLevel</key>
+					<real>30</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Action Boy/Action Girl</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>There&apos;s no time to waste! Action Points regenerate 25% faster.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your Action Points now regenerate 50% faster.</string>
+					<key>CharLevel</key>
+					<real>18</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Moving Target</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>They can&apos;t hurt what they can&apos;t hit! Get 25+ Damage Resistance and 25+ Energy Resistance when you&apos;re sprinting.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now get +50 Damage Resistance and +50 Energy Resistance when you&apos;re sprinting.</string>
+					<key>CharLevel</key>
+					<real>24</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Sprinting costs 50% fewer Action Points.</string>
+					<key>CharLevel</key>
+					<real>44</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ninja</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Trained as a shadow warrior, your ranged sneak attack do 2.5x normal damage and your melee attacks do 4x normal damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your ranged sneak attacks do 3x normal damage and your melee sneak attacks do 5x normal damage.</string>
+					<key>CharLevel</key>
+					<real>16</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your ranged sneak attacks do 3.5x normal damage and your melee sneak attacks do 10x normal damage.</string>
+					<key>CharLevel</key>
+					<real>33</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Quick Hands</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>In combat, there&apos;s no time to hesitate. You can reload all guns faster.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Reloading guns costs no Action Points in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>28</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Blitz</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Find the gap and make the tackle! V.A.T.S. melee distance is increased significantly.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>V.A.T.S. melee distance is increased even more, and the farther the Blitz distance, the greater the damage.</string>
+					<key>CharLevel</key>
+					<real>29</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Gun Fu</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;ve learned to apply ancient martial arts to gunplay! Do 25% more damage to your second V.A.T.S. target and beyond.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>In V.A.T.S. you do 50% more damage to your third target and beyond.</string>
+					<key>CharLevel</key>
+					<real>26</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>In V.A.T.S. you instantly do a Critical Hit against your fourth target and beyond.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>L</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Fortune Finder</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You find more bottle caps in containers.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more bottle caps in containers.</string>
+					<key>CharLevel</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more bottle caps in containers.</string>
+					<key>CharLevel</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more bottle caps in containers, and there is a chance of enemies exploding into a shower of caps when you kill them.</string>
+					<key>CharLevel</key>
+					<real>40</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Scrounger</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You find more ammunition in containers.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more ammunition in containers.</string>
+					<key>CharLevel</key>
+					<real>7</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more ammunition in containers.</string>
+					<key>CharLevel</key>
+					<real>24</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You find even more ammunition in containers.</string>
+					<key>CharLevel</key>
+					<real>37</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Bloody Mess</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>+5% bonus damage means enemies will sometimes explode into a gory red paste. Watch out for flying eyeballs!</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now inflict +10% damage in combat.</string>
+					<key>CharLevel</key>
+					<real>9</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now inflict +15% damage in combat.</string>
+					<key>CharLevel</key>
+					<real>31</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When an enemy explodes, nearby enemies may suffer the same fate.</string>
+					<key>CharLevel</key>
+					<real>47</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Mysterious Stranger</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Who is he? Why does he help? Who cares! The Mysterious Stranger will appear occasionally in V.A.T.S. to lend a hand, with deadly efficiency...</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>The Mysterious Stranger appears more often in V.A.T.S.</string>
+					<key>CharLevel</key>
+					<real>22</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>The Mysterious Stranger appears more often in V.A.T.S. When he kills an opponent, there is a chance your Critical meter gets filled.</string>
+					<key>CharLevel</key>
+					<real>41</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Idiot Savant</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;re not stupid! Just... different. Randomly receive 3x XP from any action, and the lower your Intelligence, the greater the chance.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You now randomly receive 5x XP from any action. The lower your Intelligence, the greater the chance.</string>
+					<key>CharLevel</key>
+					<real>11</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Randomly receiving bonus XP from any action may trigger 3x XP for all kills for a short period of time. The lower your Intelligence, the greater the chance.</string>
+					<key>CharLevel</key>
+					<real>34</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Better Criticals</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Advanced training for enhanced combat effectiveness! Criticals do 50% more extra damage.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your criticals now do twice as much extra damage.</string>
+					<key>CharLevel</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Your criticals now do 2.5x as much extra damage.</string>
+					<key>CharLevel</key>
+					<real>40</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Critical Banker</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>You&apos;re a patient battlefield tactician, and can save a Critical Hit, to be used in V.A.T.S. when you need it most.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can now save 2 Critical Hits, to be used in V.A.T.S. when you need them the most.</string>
+					<key>CharLevel</key>
+					<real>17</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>You can now save 3 Critical Hits, to be used in V.A.T.S. when you need them the most. Banking a Critical has a chance to save an additional Critical.</string>
+					<key>CharLevel</key>
+					<real>43</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Grim Reaper&apos;s Sprint</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Death becomes you! Any kill in V.A.T.S. has a 15% chance to restore all Action Points.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Any kill in V.A.T.S. now has a 25% chance to restore all Action Points.</string>
+					<key>CharLevel</key>
+					<real>19</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Any kill in V.A.T.S. has a 35% chance to restore all Action Points and refill your Critical meter.</string>
+					<key>CharLevel</key>
+					<real>46</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Four Leaf Clover</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Feeling Lucky? You should! Each hit in V.A.T.S. has a chance of filling your Critical meter.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Each hit in V.A.T.S. now has an even better chance of filling your Critical meter.</string>
+					<key>CharLevel</key>
+					<real>13</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Each hit in V.A.T.S. now has a very good chance of filling your Critical meter.</string>
+					<key>CharLevel</key>
+					<real>32</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Each hit in V.A.T.S. now has an excellent chance of filling your Critical meter.</string>
+					<key>CharLevel</key>
+					<real>48</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Ricochet</string>
+			<key>Ranks</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>What goes around comes around! Any enemy&apos;s ranged attacks will sometimes ricochet back and instantly kill them. The closer you are to death, the higher the chance.</string>
+					<key>CharLevel</key>
+					<real>1</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>There&apos;s an increased chance that an enemy&apos;s shot will ricochet back and kill them.</string>
+					<key>CharLevel</key>
+					<real>29</real>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>When an enemy&apos;s shot ricochets back and kills them, there is a chance your Critical meter gets filled.</string>
+					<key>CharLevel</key>
+					<real>50</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
