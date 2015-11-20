@@ -7,7 +7,7 @@ The Fallout 4 Perkolator is a python utility for prioritizing perks and generati
 1. Run "python perkolator.py"
 2. Set your SPECIAL skills up top
 3. Select a Perk from the 'Available' list
-4. In the Details section, set a priority for the selected Perk's first Rank. You can also set a different priority for different Perk ranks. A priority of -1 (the default value) will inherit the priority from other ranks of that perk.
+4. In the Details section, set a priority for the selected Perk's first Rank (from -1 to 11). You can also set a different priority for different Perk ranks. A priority of -1 (the default value) will inherit the priority from other ranks of that perk.
 5. Click "Show Optimized Build"
 
 ## But I already have some Perks chosen!
@@ -15,7 +15,7 @@ Just select a perk from the left, then select a level on the right, and click th
 
 You can also force perks generated for you by the script. Select one or more Perk/Rank in the Optimized Build section, and then click "Save Selected Levels as Forced Perks"
 
-Forced Perks show up as Blue in the Optimized Build section. You can remove Forced Perks by selecting them, and then clicking "Clear Forced Perk(s)"
+Forced Perks show up as blue in the Optimized Build section. You can remove Forced Perks by selecting them, and then clicking "Clear Forced Perk(s)"
 
 ## To do
 Currently there is no way to plan for Intensive Training, or other ways in which your SPECIAL stats might increase.
