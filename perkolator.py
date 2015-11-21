@@ -117,7 +117,7 @@ class Perks:
             for i in range(0, specialStats[k]):
                 availPerk = attrPerks[i]
                 perkName = availPerk['Name']
-                availablePerks.append((perkName, k))
+                availablePerks.append((perkName, k, self.priorityForPerkAndRank(perkName, 0)))
         _cache['availablePerks'] = availablePerks
         _cache['specialStats'] = dict(specialStats)
         return availablePerks
@@ -290,6 +290,19 @@ class Application(Frame):
     
     def optimizedListSelectionChanged(self, event):
         self.updateButtonStates()
+        # if only a single level is selected, select the related perk on the left
+        genList = perkModel.generatedPerkList()
+        avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
+        if len(self.resultsPerkList.curselection()) == 1:
+            selectedIndex = self.resultsPerkList.curselection()[0]
+            selectedPerk = genList[selectedIndex]
+            selectedPerkName = selectedPerk[0]
+            for ndx, p in enumerate(avail):
+                if selectedPerkName == p[0]:
+                    self.perkList.selection_clear(0, END)
+                    self.perkList.selection_set(ndx)
+                    self.perkListSelectionChanged(None)
+                    return
             
     def priorityChanged(self,widget,x,y):
         if self.ignorePriorityChanges:
@@ -367,8 +380,6 @@ class Application(Frame):
         self.clearPerk.grid(row=3,column=0, columnspan=2)
         self.clearPerk.config(command = self.clearForcedSelectedPerkAtSelectedLevel)
         
-        
-        
         resultsPerkListFrame = LabelFrame(self.perkListFrame, text='Optimized Build')
         resultsPerkListFrame.grid(row=0,column=2)
         self.resultsPerkList = Listbox(resultsPerkListFrame, height=35, width=25, exportselection=0, selectmode=EXTENDED)
@@ -434,7 +445,8 @@ class Application(Frame):
         avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
         for i, p in enumerate(avail):
             perkName = p[0]
-            self.perkList.insert(END, p[1] +': ' +perkName)
+            firstRankPri = p[2]
+            self.perkList.insert(END, p[1] + ': ' + perkName)
             
         self.perkList.pack()
         self.updateButtonStates()
