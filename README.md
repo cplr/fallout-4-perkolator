@@ -11,7 +11,7 @@ The Fallout 4 Perkolator is a python utility for prioritizing perks and generati
 5. Click "Show Optimized Build"
 
 ## But I already have some Perks chosen!
-Just select the level you want to set on the right, then select a perk from the left, and click the button in the middle that says "Force (Selected Perk) at (Level)". This will force that perk at that level, and the script will work around those choices. You can also use this to override the priority system if you have an edge case.
+Just select both a perk on the left side, a level on the right side, and then click the button in the middle that says "Force (Selected Perk) at (Level)". This will force that perk at that level, and the script will work around those choices. You can also use this to override the priority system if you have an edge case.
 
 You can also force perks generated for you by the script. Select one or more Perk/Rank in the Optimized Build section, and then click "Save Selected Levels as Forced Perks"
 

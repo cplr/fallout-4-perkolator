@@ -288,21 +288,22 @@ class Application(Frame):
         self.ignorePriorityChanges = FALSE
         self.updateButtonStates()
     
-    def optimizedListSelectionChanged(self, event):
+    def optimizedListSelectionChanged(self, event, _selectRelatedPerk=False):
         self.updateButtonStates()
-        # if only a single level is selected, select the related perk on the left
-        genList = perkModel.generatedPerkList()
-        avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
-        if len(self.resultsPerkList.curselection()) == 1:
-            selectedIndex = self.resultsPerkList.curselection()[0]
-            selectedPerk = genList[selectedIndex]
-            selectedPerkName = selectedPerk[0]
-            for ndx, p in enumerate(avail):
-                if selectedPerkName == p[0]:
-                    self.perkList.selection_clear(0, END)
-                    self.perkList.selection_set(ndx)
-                    self.perkListSelectionChanged(None)
-                    return
+        if _selectRelatedPerk:
+            # if only a single level is selected, select the related perk on the left
+            genList = perkModel.generatedPerkList()
+            avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
+            if len(self.resultsPerkList.curselection()) == 1:
+                selectedIndex = self.resultsPerkList.curselection()[0]
+                selectedPerk = genList[selectedIndex]
+                selectedPerkName = selectedPerk[0]
+                for ndx, p in enumerate(avail):
+                    if selectedPerkName == p[0]:
+                        self.perkList.selection_clear(0, END)
+                        self.perkList.selection_set(ndx)
+                        self.perkListSelectionChanged(None)
+                        return
             
     def priorityChanged(self,widget,x,y):
         if self.ignorePriorityChanges:
