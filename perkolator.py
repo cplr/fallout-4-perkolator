@@ -150,11 +150,18 @@ class Perks:
                 perks.remove(match[0])
             
         for lvl in range(2, maxLevel+1):
+            availPerks = perkModel.availablePerksForLevel(lvl)
             matchedUnlocks = filter(lambda p: p[2] == lvl, allForcedPerks)
             if len(matchedUnlocks) > 0:
                 # print(matchedUnlocks)
                 matchedUnlock = matchedUnlocks[0]
                 genList.append((matchedUnlock[0], matchedUnlock[1], lvl, True))
+                # if new perks in availPerks are not the matchedUnlock perk, make sure we add them to delayedPerks
+                if availPerks is not None:
+                    for (name, rank, rankNum) in availPerks:
+                        if (name, rankNum) != (matchedUnlock[0], matchedUnlock[1]): #in [(u[0], u[1]) for u in allForcedPerks]:
+                            delayedPerks.append((name, rank, rankNum))
+                            
                 continue   
             
             if empty:
@@ -168,7 +175,6 @@ class Perks:
                     perks.append((name, rank, rankNum))
                     delayedPerks.remove((name, rank, rankNum))
                     
-            availPerks = perkModel.availablePerksForLevel(lvl)
             if availPerks is not None:
                 for (name, rank, rankNum) in availPerks:
                     if (name, rankNum) in [(u[0], u[1]) for u in allForcedPerks]:
