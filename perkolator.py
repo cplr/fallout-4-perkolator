@@ -25,6 +25,7 @@ import os.path
 prefsFileName = './CharPrefs.plist'
 maxLevel = 150
 maxPriority = 11
+showPriorityInAvailableList = False
 
 # model for reading perk data
 class Perks:
@@ -105,7 +106,7 @@ class Perks:
         return -1
         
     def availablePerksForSpecial(self, specialStats, _cache={}):
-        # returns [(perkName, special_attr_letter)]
+        # returns [(perkName, special_attr_letter, priority)]
         if 'specialStats' in _cache:
             if _cache['specialStats'] == specialStats:
                 # print('using cache')
@@ -311,7 +312,7 @@ class Application(Frame):
                         self.perkListSelectionChanged(None)
                         return
             
-    def priorityChanged(self,widget,x,y):
+    def priorityChanged(self,widget,x,y,_showPriorityInList=showPriorityInAvailableList):
         if self.ignorePriorityChanges:
             return
         selectedPerk = self.selectedPerkNameInPerkList()
@@ -327,6 +328,11 @@ class Application(Frame):
                 if len(val) > 0:
                     newPriority = int(spinVar.get())
                     perkModel.setPriorityForPerkAndRank(selectedPerk,rankNum,newPriority)
+                    if _showPriorityInList:
+                        ndx = self.perkList.curselection()[0]
+                        self.updatePerkList()
+                        self.perkList.selection_clear(0, END)
+                        self.perkList.selection_set(ndx)
                 return
     
     def updateButtonStates(self):
@@ -447,13 +453,20 @@ class Application(Frame):
         self.resultsPerkList.pack()
         self.updateButtonStates()
             
-    def updatePerkList(self):
+    def updatePerkList(self, _showPriorities=showPriorityInAvailableList):
         self.perkList.delete(0, END)
-        avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
+        if _showPriorities:
+            avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'], _cache={})
+        else:
+            avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
         for i, p in enumerate(avail):
+            attr = p[1]
             perkName = p[0]
             firstRankPri = p[2]
-            self.perkList.insert(END, p[1] + ': ' + perkName)
+            if _showPriorities:
+                self.perkList.insert(END, attr + ': ' + perkName + ' <'+str(firstRankPri)+'>')
+            else:
+                self.perkList.insert(END, attr + ': ' + perkName)
             
         self.perkList.pack()
         self.updateButtonStates()
