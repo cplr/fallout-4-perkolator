@@ -171,7 +171,7 @@ class Perks:
             
             # print('level '+str(lvl))
             # first scan delayed perks
-            for (name, rank, rankNum) in delayedPerks:
+            for (name, rank, rankNum) in delayedPerks[:]:
                 if name not in [x[0] for x in perks]:
                     perks.append((name, rank, rankNum))
                     delayedPerks.remove((name, rank, rankNum))
@@ -311,6 +311,11 @@ class Application(Frame):
                         self.perkList.selection_set(ndx)
                         self.perkListSelectionChanged(None)
                         return
+    
+    def optimizedListDoubleClick(self, event):
+        # print('double')
+        # self.optimizedListSelectionChanged(None, True)
+        pass
             
     def priorityChanged(self,widget,x,y,_showPriorityInList=showPriorityInAvailableList):
         if self.ignorePriorityChanges:
@@ -396,7 +401,7 @@ class Application(Frame):
         resultsPerkListFrame = LabelFrame(self.perkListFrame, text='Optimized Build')
         resultsPerkListFrame.grid(row=0,column=2)
         self.resultsPerkList = Listbox(resultsPerkListFrame, height=35, width=25, exportselection=0, selectmode=EXTENDED)
-        # self.resultsPerkList.bind('<Double-1>', self.perkListDoubleClick)
+        self.resultsPerkList.bind('<Double-1>', self.optimizedListDoubleClick)
         self.resultsPerkList.bind('<<ListboxSelect>>', self.optimizedListSelectionChanged)
         self.resultsPerkList.pack({"side": "left"})
         
