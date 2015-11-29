@@ -144,6 +144,7 @@ class Perks:
         perks = self.availablePerksForLevel(1)
         delayedPerks = []
         allForcedPerks = self.allForcedPerks()
+        nameAndRanksForcedPerks = [(u[0], u[1]) for u in allForcedPerks]
         
         for (perkName, rankNum, level) in allForcedPerks:
             match = filter(lambda p: p[0] == perkName and p[2] == rankNum,perks)
@@ -160,7 +161,7 @@ class Perks:
                 # if new perks in availPerks are not the matchedUnlock perk, make sure we add them to delayedPerks
                 if availPerks is not None:
                     for (name, rank, rankNum) in availPerks:
-                        if (name, rankNum) != (matchedUnlock[0], matchedUnlock[1]): #in [(u[0], u[1]) for u in allForcedPerks]:
+                        if (name, rankNum) not in nameAndRanksForcedPerks:
                             delayedPerks.append((name, rank, rankNum))
                             
                 continue   
@@ -178,7 +179,7 @@ class Perks:
                     
             if availPerks is not None:
                 for (name, rank, rankNum) in availPerks:
-                    if (name, rankNum) in [(u[0], u[1]) for u in allForcedPerks]:
+                    if (name, rankNum) in nameAndRanksForcedPerks:
                         continue
                     elif name not in [x[0] for x in perks]: # if we already have a previous perk's rank in the list to choose from, don't add it again
                         perks.append((name, rank, rankNum))
