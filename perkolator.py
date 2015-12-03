@@ -119,6 +119,7 @@ class Perks:
                 availPerk = attrPerks[i]
                 perkName = availPerk['Name']
                 availablePerks.append((perkName, k, self.priorityForPerkAndRank(perkName, 0)))
+            # availablePerks.append(('Training', k, 0))
         _cache['availablePerks'] = availablePerks
         _cache['specialStats'] = dict(specialStats)
         return availablePerks
@@ -193,6 +194,8 @@ class Perks:
                 # print(selectedPerk)
                 perks.remove(selectedPerk)
                 genList.append((selectedPerk[0], selectedPerk[2], lvl, False))
+            else:
+                genList.append((None, 0, lvl, False))
         return genList
 
 class Application(Frame):
@@ -212,8 +215,9 @@ class Application(Frame):
         
     def selectedPerkNameInPerkList(self):
         if len(self.perkList.curselection()) > 0:
+            selectedIndex = self.perkList.curselection()[0]
             avail = perkModel.availablePerksForSpecial(perkModel.perkPrefs['Stats'])
-            selectedPerk = avail[self.perkList.curselection()[0]][0] # curselection[0] is selected index, avail[i][0] is the perk name (avail[i][1] is the stat/attribute type (SPECIAL))
+            selectedPerk = avail[selectedIndex][0] # avail[i][0] is the perk name (avail[i][1] is the stat/attribute type (SPECIAL))
             return selectedPerk
         return None
     
